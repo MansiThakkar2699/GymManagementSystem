@@ -1,0 +1,78 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(95, 93, 93);
+}
+.container
+{
+    width:1500px;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 800px;
+    margin-top: 40px;
+}
+.wrapper
+{
+    margin-bottom: 40px;
+
+}
+h1
+{
+    font-family: Verdana;
+    color: rgb(95, 93, 93);
+
+}
+.data
+{
+    width: 800px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.data select
+{
+    width: 200px;
+    padding: 3px;
+    margin: 20px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+.submit
+{
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: rgb(95, 93, 93);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.table
+{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    clear: both;
+
+}
+.table th
+{
+    width: 200px;
+    font-family: Verdana;
+    font-size: 13px;
+    color:rgb(95, 93, 93) ;
+    padding: 3px 20px 3px 20px 3px 20px;
+
+}
+.table td
+{
+    width: 300px;
+    font-family: Verdana;
+    font-size: 13px;
+    color:rgb(95, 93, 93) ;
+    padding: 3px 68px 3px 68px 3px 68px;
+    text-align: left;
+}

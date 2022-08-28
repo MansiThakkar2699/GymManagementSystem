@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from demo.lorvent.com/fitness/user_amntpayment.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2019 04:04:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>Payment | Fitness Hub Admin Template</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- global css -->
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/custom_css/fitness.css" rel="stylesheet" />
+    <link type="text/css" href="css/custom_css/metisMenu.css" rel="stylesheet" />
+
+    <link type="text/css" href="css/custom_css/panel.css" rel="stylesheet" />
+    <!-- end of global css -->
+    <!--page level css -->
+    <link rel="stylesheet" type="text/css" href="css/custom_css/payment.css">
+    <!--end of page level css-->
+</head>
+
+<body>
+    <?php include('admin_dashboard.php');?>
+    <div class="se-pre-con"></div>
+    <!-- header logo: style can be found in header-->
+   
+    <div class="wrapper row-offcanvas row-offcanvas-left">
+        <!-- Left side column. contains the logo and sidebar -->
+       
+        <aside class="right-side right-padding">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <!--section starts-->
+                <h2>Payment</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="user_index.html">
+                            <i class="fa fa-fw fa-home"></i> Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="user_amntpayment.html">Payment</a>
+                    </li>
+                </ol>
+            </section>
+            <!--section ends-->
+            <div class="container-fluid">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            Payment Mode
+                        </div>
+                    </div>
+                    <div class="panel-body text-center">
+                        <div class="table-responsive">
+                            <div class="card-wrapper"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-lg-offset-3 col-xs-12">
+                                <div class="form-container active">
+                                    <form>
+                                        <div class="form-group">
+                                            <input placeholder="Card Number" class="form-control" type="text" name="number">
+                                        </div>
+                                        <div class="form-group">
+                                            <input placeholder="Full Name" maxlength="16" class="form-control nameuser" type="text" name="name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input placeholder="MM/YY" class="form-control" type="text" name="expiry">
+                                        </div>
+                                        <div class="form-group">
+                                            <input placeholder="CVC" class="form-control" type="text" name="cvc">
+                                        </div>
+                                        <div class="form-group text-center">
+                                            <a href="#" class="btn btn-primary">Submit</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.content -->
+        </aside>
+        <!-- /.right-side -->
+    </div>
+    <!-- /.right-side -->
+    <!-- ./wrapper -->
+    <!-- global js -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/custom_js/app.js" type="text/javascript"></script>
+    <script src="js/custom_js/metisMenu.js" type="text/javascript"></script>
+    <script src="vendors/holder/holder.js" type="text/javascript"></script>
+    <!-- end of page level js -->
+    <!-- begining of page level js -->
+    <script src="js/custom_js/jquery.card.js" type="text/javascript"></script>
+    <script src="js/custom_js/user_payment.js" type="text/javascript"></script>
+    <!-- end of page level js -->
+</body>
+
+
+<!-- Mirrored from demo.lorvent.com/fitness/user_amntpayment.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2019 04:04:56 GMT -->
+</html>
